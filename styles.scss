@@ -85,6 +85,9 @@ h2 {
     }
 }
 @media only screen and (min-width: 1024px) {
+    body {
+        width: 1024px;
+    }
     .instrumentos {
         grid-template-columns: 420px 1fr;
     }
