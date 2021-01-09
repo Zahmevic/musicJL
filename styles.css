@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&family=Quicksand:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+header {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+h1 {
+  font-family: "Bodoni Moda";
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.title {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+picture {
+  margin: 0;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+picture img {
+  margin-top: 10px;
+}
+
+.techo {
+  background: black;
+  width: 100%;
+  color: white;
+}
+
+footer {
+  background: black;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: "Quicksand";
+}
+
+.pizarron {
+  background: whitesmoke;
+  width: 100%;
+}
+
+.instrumentos img {
+  margin: 15px 10px;
+}
+
+.instrumentos {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+}
+
+a {
+  grid-column: 1;
+}
+
+.pic {
+  grid-column: 2;
+  align-self: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Quicksand";
+}
+
+@media only screen and (min-width: 375px) {
+  .pizarron {
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .pizarron {
+    padding: 20px 20px 20px 50px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .instrumentos {
+    grid-template-columns: 220px 1fr;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .instrumentos {
+    grid-template-columns: 420px 1fr;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
