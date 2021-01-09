@@ -52,7 +52,6 @@ footer {
 .pizarron {
   background: whitesmoke;
   width: 100%;
-  margin: 0 auto;
 }
 
 .instrumentos img {
@@ -104,6 +103,10 @@ h2 {
 
   h2 {
     font-size: 40px;
+  }
+
+  .pizarron {
+    margin: 0 auto;
   }
 }
 
