@@ -104,7 +104,8 @@ h2 {
   h2 {
     font-size: 40px;
   }
-
+}
+@media only screen and (min-width: 1440px) {
   .pizarron {
     padding-left: 150px;
   }
