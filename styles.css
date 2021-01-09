@@ -52,6 +52,7 @@ footer {
 .pizarron {
   background: whitesmoke;
   width: 100%;
+  margin: 0 auto;
 }
 
 .instrumentos img {
